@@ -1,0 +1,30 @@
+#GameContainer{
+    font-family: "Permanent Marker", cursive;
+}
+#GameTitle{
+    text-align: center;
+    font-size: 50px;
+}
+#Container{
+    display: grid;
+    grid-template-columns: repeat(7,125px);
+    margin:auto;
+    justify-content: center;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: solid;
+    border-radius: 100px;
+}
+#Player{
+    text-align: center;
+    font-size: 30px;
+}
+#resetButton{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    padding: .5em;
+}
